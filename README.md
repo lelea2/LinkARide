@@ -1,3 +1,4 @@
-# Hackathon LinkedIN Professional Carpool project
+### Hackathon LinkedIN Professional Carpool project
 
-#Thirdplace linkedIn hackathon 2013
+Third-place linkedIn hackathon 2013
+Technology stack: Backbone, Parse, Linked-In API, Bootstrap
