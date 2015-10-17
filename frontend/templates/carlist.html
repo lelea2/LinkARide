@@ -1,0 +1,19 @@
+<link rel="stylesheet" href="css/serp.css">
+<div class="alert">We've linked you to <%= count %> women who can share a ride from <strong><%= zipcode1 %></strong> to <strong><%= zipcode2 %></strong></div>
+<img id="map" src="css/lib/img/map.png"/>
+<% _.each(carpools, function(carpool) { %>
+<div class="carpool">
+    <div class="left">
+        <a href="<%= carpool.userinfo.publicProfile %>"><img width="80px" height="80px" src="<%= carpool.userinfo.imgLink %>"></a>
+    </div>
+    <div class="right">
+            <span><%= carpool.userinfo.firstName %></span>&nbsp;
+            <span><%= carpool.userinfo.lastName %></span>
+        </div>
+        <div><%= carpool.userinfo.company %></div>
+        <div class="msg"><%= carpool.title %></div>
+        <div><%= carpool.distance %> miles</div>
+        <button class="btn linkedup" data-id="<%= carpool.carpoolId %>">Link Up</button>
+    </div>
+</div>
+<% }); %>

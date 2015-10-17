@@ -1,0 +1,32 @@
+.userHeader {
+    display: block;
+    width: 50%;
+    height: 80px;
+    font-family: 'Lato', sans-serif;
+}
+.userHeader span:first-child {
+    display: inline-block;
+    float: left;
+    font-family: 'Lato', sans-serif;
+}
+.userHeader ul li {
+    list-style: none;
+    display: block;
+    font-family: 'Lato', sans-serif;
+}
+#notification {
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+}
+#shareSubmit {
+    display: block;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    font-family: 'Lato', sans-serif;
+}
+/** Small device **/
+@media (max-width: 648px) {
+    .userHeader {
+        width: 100%;
+    }
+}

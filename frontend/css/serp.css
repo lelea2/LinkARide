@@ -1,0 +1,14 @@
+#footer {
+    background: none;
+}
+body {
+    background: #fff;
+}
+#header .navbar {
+    background-color: #53CBDE;
+    margin-top: 0;
+    border-radius: 0;
+}
+#header .navbar-header {
+    display: inline-block;
+}

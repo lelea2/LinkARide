@@ -1,0 +1,18 @@
+<link rel="stylesheet" href="css/serp.css">
+<div class="alert">List of women waiting to share a ride.</div>
+<% _.each(invites, function(invite) { %>
+<div class="invite">
+    <div class="left">
+        <img width="80px" height="80px" src="<%= requesters[invite.requesterId].imgLink %>">
+    </div>
+    <div class="right">
+        <div>
+            <span><%= requesters[invite.requesterId].firstName %></spam>&nbsp;
+            <span><%= requesters[invite.requesterId].lastName %></span>
+        </div>
+        <div><%= requesters[invite.requesterId].title %></div>
+        <div class="msg"><%= invite.message %></div>
+        <button class="btn accept">Accept</button>
+    </div>
+</div>
+<% }); %>

@@ -1,0 +1,109 @@
+body {
+    background-color: #53CBDE;
+    font-family: 'Lato', sans-serif;
+}
+#footer {
+    background: url("lib/img/footer.png");
+    height: 180px;
+    border: none;
+    z-index: -1;
+}
+#footer .right {
+    color: #fff;
+    margin-top: 150px;
+    float: right;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+}
+#header .right {
+    float: right;
+}
+#footer .right a {
+    color: #fff;
+    margin-right: 120px;
+}
+.container {
+    min-height: 400px;
+}
+#header .container {
+    min-height: 30px;
+    max-width: 778px;
+}
+#profile {
+    width: 90%;
+    margin: auto;
+}
+#profile .logo {
+    margin: auto;
+    width: 285px;
+    height: 44px;
+    margin-bottom: 15px;
+}
+
+#profile h1 {
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 75px;
+    color: #fff;
+    font-size: 32px;
+    font-family: 'Lato', sans-serif;
+}
+
+#header img {
+    /*padding-top: 10px;*/
+}
+#header .navbar {
+    margin-top: 10px;
+}
+#header .navbar-header {
+    display: none;
+}
+#signup {
+    margin-top: 40px;
+    font-family: 'Lato', sans-serif;
+}
+#signin,
+#connected {
+    background: transparent;
+    border: 2px solid #eff7fa;
+    border-radius: 6px;
+    width: 190px;
+    font-family: 'Lato', sans-serif;
+}
+#signin {
+    background-image: url("lib/img/linkedin.png");
+    background-repeat: no-repeat;
+    height: 40px;
+    padding-left: 52px;
+    width: 230px;
+    font-weight: bold;
+}
+#signin:hover,
+#connected:hover {
+    background-color: #eff7fa;
+    color: #53CBDE;
+}
+#header .dropdown-menu {
+    left: -108px;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+#header .dropdown-menu li a:hover {
+    background-color: #eee;
+    color: #De5542;
+}
+/** Small device **/
+@media (max-width: 748px) {
+    #logo {
+        width: 190px;
+        width: 30px;
+    }
+    #profile h1 {
+        font-size: 22px;
+    }
+    #footer .right a {
+        margin-right: 5px;
+    }
+}
